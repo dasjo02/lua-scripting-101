@@ -25,7 +25,9 @@ while user_option ~= 4 do
         local d = math.sqrt((enemy_x-player_x)^2 + (enemy_y - player_y) ^2);
         print("Distance from enemy to player: "..d)
     elseif user_option == 3 then
-        print("Chose Option 3");
+        local a = math.atan2((enemy_y - player_y), (enemy_x - enemy_y));
+        local a_deg = math.deg(a);
+        print("Angle between the enemy and the player "..a_deg.. " degrees");
     elseif user_option == 4 then
         print("Chose Option 4");
     else
