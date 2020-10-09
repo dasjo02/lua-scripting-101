@@ -32,7 +32,7 @@ prince_codes = {
     {Page = rnd1, Line = rnd2, Word = rnd3, Code = "W"},
     {Page = rnd1, Line = rnd2, Word = rnd3, Code = "X"},
     {Page = rnd1, Line = rnd2, Word = rnd3, Code = "Y"},
-    {Page = rnd1, Line = rnd2, Word = rnd3, Code = "z"},
+    {Page = rnd1, Line = rnd2, Word = rnd3, Code = "Z"},
 }
 
 function lookup_codes(page, line, word)
