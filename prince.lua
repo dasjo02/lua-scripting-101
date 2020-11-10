@@ -3,9 +3,12 @@ rnd1 = math.random(1,15);
 rnd2 = math.random(1,15);
 rnd3 = math.random(1,15);
 
--- SET THE TABLE FO CODES
+-- SET THE TABLE CODES
 -- SET SOME STATIC FOR QUICK TESTING
 -- OTHERS DYNAMIC TO AVOID OVERTYPING
+
+-- TODO:USE CHAR AGAINST RANDOM NUMBER 65+26 FOR RANDOM LETTERS
+
 prince_codes = {
     {Page = 1, Line = 11, Word = 15, Code = "A"},
     {Page = 2, Line = 12, Word = 25, Code = "B"},
